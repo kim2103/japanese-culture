@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 20;
+  text-decoration: none;
+  outline: 0;
+}
+.nav{
+  background-color:#ff0000 ;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+}
+.nav-item{
+  color: white;
+  height:100%;
+  padding: 12px 16px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.nav-item:hover{
+  background-color:white;
+  color: #ff0000;
+}
+
+#Home{
+  max-height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#Home img{
+width: 900px;
+height: 700px;
+}
+
+#Information{
+  text-align: center;
+  font-size:20px;
+  width: 70%;
+  margin: 30px auto auto auto;
+
+}
+
+#Activity{ 
+max-width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.third{
+  width: 33.33333%;
+  margin: auto 40px;
+}
+
+.row-center{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.column-center{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 25px;
+text-align: center;
+}
+
+h2{
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 25px;
+text-align: center;
+}
+
+.row-under{
+display:flex
+}
+
+#site_content { 
+  width: 930px;
+  margin: 0px auto 0 auto;
+  padding: 25px;
+  height: 100%;
+} 
+
+#sidebar_container { 
+  float: right;
+  width: 224px;
+  height: 100%;
+  padding-left: 55px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom:55px;
+}
+
+.sidebar { 
+  text-align: center;
+  float: right;
+  width: 224px;
+  margin: 0 0 17px 0;
+  padding: 0 15px 5px 13px;
+  height: 100%;
+}
+  
+.sidebar h3,h1{ 
+  margin: 30px auto;
+  font: 200% 'News Cycle', arial, sans-serif;
+  text-shadow: black 1px 1px;
+  text-align: center;
+}
+
+h4{
+  font-size: 25px;
+}
+
+.content{
+  text-align: justify;
+  width: 100%;
+}
+
+.content h2{
+  margin: 30px auto;
+}
+
+.content img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 15px;
+}
+
+#img{
+  border: 5px solid #e46c11;
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  display: block;
+  margin: auto auto;
+}

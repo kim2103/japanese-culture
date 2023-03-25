@@ -1,0 +1,81 @@
+.main{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(/img/japanese-wave-line-art-landscape-background-abstract-mountain-banner-design-pattern-vector-illustration-geometric-poster_90220-715.jpg) ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header{
+    padding-top: 10px;
+    margin-bottom: 2%;
+}
+
+form{
+    color:rgb(136, 26, 26);
+}
+
+input{
+    border: solid gray 3px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+
+#mess{
+    height: 200px;
+    width: 300px;
+}
+
+::placeholder {
+    text-align: center; 
+ }
+ 
+ ::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+label{
+font-size: 25px;
+font-weight: bold;
+}
+
+.input{
+    border-radius: 40%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15px;
+    margin: auto;
+    padding: auto;
+}
+
+button{
+    padding: 0.6rem 3rem;
+    background: #da5767;
+    border: 2px solid #da5767;
+    border-radius: 12rem;
+    color: white;
+}
+
+h1{text-align: center;}
+
+p{text-align: center;}
+
